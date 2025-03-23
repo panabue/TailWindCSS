@@ -1,0 +1,203 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../style/output.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font.awesome.min.css" rel="stylesheet">
+  <title>Uber</title>
+</head>
+<body>
+  <!--Header-->
+  <header class="bg-black h-15 p-2 flex items-center">
+    <div class="w-full flex items-center justify-between max-w-7xl mx-auto">
+      <div class="flex justify-center items-center">
+        <img src="./assets/uberlogo.png" alt="logo uber" class="w-20 mr-7">
+
+        <nav class="hidden sm:flex items-center justify-center gap-5">
+          <a href="#" class="text-white font-medium hover:opacity-80 active:opacity-70">Company</a>
+          <a href="#" class="text-white font-medium hover:opacity-80 active:opacity-70">Safety</a>
+          <a href="#" class="text-white font-medium hover:opacity-80 active:opacity-70">Help</a>
+        </nav>
+      </div>
+
+      <div class="flex items-center justify-center gap-3">
+        <a href="#" class="text-white font-medium hover:opacity-80 active:opacity-70">Login</a>
+        <a href="#" class="bg-white font-medium px-3 py-1 rounded-full hover:scale-110 duration-300 active:opacity-80">Sign up</a>
+      </div>
+    </div>
+  </header>
+
+  <!--Hero-->
+  <main class="w-full sm:py-10 bg-[url('../src/assets/bguber.png')] bg-no-repeat bg-cover bg-left">
+    <div class="flex w-full max-w-7xl mx-auto">
+
+      <section class="bg-white max-w-lg w-full md:m-2 pb-4">
+        <div class="bg-slate-100 flex flex-row justify-between">
+          <section class="pt-3 flex flex-1 flex-col justify-center items-center gap-2">
+            <i class="fa-solid fa-signal text-2xl"></i>
+            <span class="text-center font-medium">Faça viagens ou entregas</span>
+            <span class="w-full bg-black h-[2px]"></span>
+          </section>
+
+          <section class="pt-3 flex flex-1 flex-col justify-center items-center gap-2">
+            <i class="fa-solid fa-car text-2xl"></i>
+            <span class="text-center font-medium">Viajar</span>
+          </section>
+
+          <section class="pt-3 flex flex-1 flex-col justify-center items-center gap-2">
+            <i class="fa-solid fa-key text-2xl"></i>
+            <span class="text-center font-medium">Alugue seus carros</span>
+          </section>
+
+        </div>
+
+        <div class="pl-4 flex flex-col gap-5">
+
+          <h1 class="max-w-sm font-bold text-4xl pt-4">Assuma o comando e ganhe</h1>
+          <p class="max-w-sm">
+            Dirija na plataforma com a maior rede de usuários ativos.
+          </p>
+
+          <button class="bg-black self-start text-white px-6 py-2 rounded-lg font-medium hover:scale-105 duration-300 active:opacity-70">
+            Cadastre-se para dirigir
+          </button>
+
+          <a 
+            href="#"
+            class="text-gray-700 mt-7 mb-4 border-b-2 self-start hover:text-gray-500 active:text-gray-300 duration-300"
+          >
+            Saiba mais sobre como dirigir e fazer entregas
+          </a>
+
+        </div>
+
+      </section>
+    </div>
+  </main>
+
+  <!--Call-->
+  <section class="w-full bg-[url('../src/assets/bg-city.png')] bg-no-repeat bg-cover bg-left-bottom py-10">
+    <div class="w-full max-w-7xl mx-auto pl-2 flex flex-col gap-5">
+      <h1 class="w-full max-w-2xl text-3xl font-bold lg:text-4xl pt-4">A plataforma Uber que você conhece, reinventada para empresas</h1>
+
+      <p class="text-sm max-w-2xl md:text-base">
+        Uma plataforma simples para empresas de todos os portes administrarem suas viajens e refeições globais e entregas locais
+      </p>
+
+      <button class="bg-black self-start text-white px-6 py-2 rounded-lg font-medium hover:scale-105 duration-300 active:opacity-70">
+        Começar
+      </button>
+    </div>
+  </section>
+
+  <!--Posts-->
+  <section class="w-full max-w-7xl mx-auto px-2 py-10 ">
+
+    <h1 class="w-full max-w-lg text-2xl font-bold sm:text-3xl pb-3">Preocupados com a sua segurança, onde quer que voce vá</h1>
+
+    <div class="flex mx-auto flex-col sm:flex-row gap-5">
+      <section class="flex flex-col gap-3 flex-1">
+        <img src="./assets/post1.png" alt="post1" class="opacity-80 hover:opacity-100 hover:scale-95 active:scale-100 active:opacity-80 duration-300">
+        <h2 class="font-medium">Sua segurança é a nossa prioridade</h2>
+        <p class="text-stone-800">Com todos os recursos de segurança e todas as normas do nosso Código
+          da Comunidade Uber, estamos comprometidos em ajudar a criar um ambiente seguro para nossos usuários.
+        </p>
+      </section>
+      <section class="flex flex-col gap-3 flex-1">
+        <img src="./assets/post2.png" alt="post2" class="opacity-80 hover:opacity-100 hover:scale-95 active:scale-100 active:opacity-80 duration-300">
+        <h2 class="font-medium">Colocamos mais de 10.000 cidades em movimento</h2>
+        <p class="text-stone-800">O app está disponivel em milhares de cidades no mundo todo para que você
+          possa solicitar uma viagem mesmo longe de casa.
+        </p>
+      </section>
+    </div>
+
+  </section>
+
+  <!--Sobre nos-->
+  <section class="w-full sm:px-2 px-4 py-10">
+    <div class="w-full max-w-7xl mx-auto grid sm:grid-cols-3 grid-cols-1 gap-8">
+      <section class="flex flex-col gap-3">
+        <i class="fa-solid fa-people-group text-3xl"></i>
+        <h3 class="font-bold text-xl">Quem somos</h3>
+        <p>Descubra como começamos, o que nos motiva e como estamos reimaginando como o mundo se move.</p>
+        <a href="#" class="text-gray-700 mt-7 hover:border-b-1 hover:border-gray-500 active:border-gray-300 self-start hover:text-gray-500 active:text-gray-300">Saiba mais sobre a Uber</a>
+      </section>
+      <section class="flex flex-col gap-3">
+        <i class="fa-solid fa-newspaper text-3xl"></i>
+        <h3 class="font-bold text-xl">Sala de Notícias</h3>
+        <p>Confira as notícias mais recentes sobre lançamentos, iniciativas e parcerias.</p>
+        <a href="#" class="text-gray-700 mt-7 hover:border-b-1 hover:border-gray-500 active:border-gray-300 self-start hover:text-gray-500 active:text-gray-300">Acesse a sala de notícias</a>
+      </section>
+      <section class="flex flex-col gap-3">
+        <i class="fa-solid fa-house text-3xl"></i>
+        <h3 class="font-bold text-xl">Cidadania global</h3>
+        <p>Leia sobre o nosso compromisso de gerar um impacto positivo nas cidades que atendemos.</p>
+        <a href="#" class="text-gray-700 mt-7 hover:border-b-1 hover:border-gray-500 active:border-gray-300 self-start hover:text-gray-500 active:text-gray-300">Veja nossos parceiros</a>
+      </section>
+    </div>
+  </section>
+
+  <!--App-->
+  <section class="w-full sm:px-2 sm:py-10 px-4 py-8 bg-gray-300"> 
+    <div class="w-full max-w-7xl mx-auto">
+      <h2 class="w-full max-w-lg text-2xl font-bold md:text-3xl pb-5">É mais fácil pelo app</h2>
+
+      <div class="flex flex-col gap-5 md:flex-row md:gap-8">
+        <a href="#" class="w-full flex flex-1 items-center bg-white px-3 py-5 md:px-6 md:py-10 hover:shadow-2xl active:scale-98 duration-300">
+          <img src="./assets/qrcode1.png" alt="qrcode1" class="hidden md:block">
+          <div class="w-full flex justify-between pl-5">
+            <div>
+              <h3 class="font-bold text-xl">Baixe o app da Uber</h3>
+              <p class="text-stone-800 md:block hidden">Leia o codigo QR para baixar o app</p>
+            </div>
+            <i class="fa-solid fa-arrow-right text-3xl"></i>
+          </div>
+        </a>
+        <a href="#" class="w-full flex flex-1 items-center bg-white px-3 py-5 md:px-6 md:py-10 hover:shadow-2xl active:scale-98 duration-300">
+          <img src="./assets/qrcode2.png" alt="qrcode2" class="hidden md:block">
+          <div class="w-full flex justify-between pl-5">
+            <div>
+              <h3 class="font-bold text-xl">Baixe o app de parceiro</h3>
+              <p class="text-stone-800 md:block hidden">Leia o codigo QR para baixar o app</p>
+            </div>
+            <i class="fa-solid fa-arrow-right text-3xl"></i>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!--Cadastros-->
+  <section class="w-full sm:px-2 sm:py-10 px-4 py-8"> 
+    <div class="w-full max-w-7xl mx-auto flex flex-col gap-5 md:flex-row md:gap-8">
+      <a href="#" class="w-full flex flex-1 items-center px-3 py-5 md:px-6 md:py-10 hover:shadow-2xl hover:scale-98 duration-300">
+        <div class="w-full flex items-center justify-between">
+          <h2 class="w-full text-2xl font-bold md:text-3xl">Cadastre-se para dirigir</h2>
+          <i class="fa-solid fa-greater-than text-3xl md:text-4xl"></i>
+        </div>
+      </a>
+      <a href="#" class="w-full flex flex-1 items-center px-3 py-5 md:px-6 md:py-10 hover:shadow-2xl hover:scale-98 duration-300">
+        <div class="w-full flex items-center justify-between">
+          <h2 class="w-full text-2xl font-bold md:text-3xl">Cadastre-se para viajar</h2>
+          <i class="fa-solid fa-greater-than text-3xl md:text-4xl"></i>
+        </div>
+      </a>
+      
+    </div>
+  </section>
+
+  <!--Footer-->
+  <footer class="bg-black flex flex-col items-center gap-2 py-8">
+    <img src="./assets/uberlogo.png" alt="logo uber" class="w-20">
+    <span class="text-white">@2025 Theo Nasser</span>
+    <div class="flex flex-col sm:flex-row items-center gap-4">
+      <a href="#"><img src="./assets/lojapple.png" class="w-30"></a>
+      <a href="#"><img src="./assets/playstore.png" class="w-30"></a>
+    </div>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/3982042724.js" crossorigin="anonymous"></script>
+</body>
+</html>

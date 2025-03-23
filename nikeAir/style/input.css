@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+@theme {
+  --font-Inter: "Inter Tight", sans-serif;
+  --animate-floatRight: floatRight 2s ease-in-out infinite;
+  --animate-opacityPulse: opacityPulse 2s ease-in-out infinite;
+
+  @keyframes floatRight {
+    0% { transform: translateX(0px); }
+    50% { transform: translateX(8px); }
+    100% { transform: translateX(0px); }
+  }
+
+  @keyframes opacityPulse {
+    0% { opacity: 1; }
+    50% { opacity: 0.3; }
+    100% { opacity: 1; }
+  }
+
+}
+
